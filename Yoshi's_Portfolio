@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <script src="https://kit.fontawesome.com/56e22de301.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+  <div id="fixed-btn">
+    TOP OF THE PAGE
+  </div>
+
+    
+  <div class="nav_fixed">
+    <div class="na_fxd_1"><li><a href="#profile">01_Profile</a></li></div>
+    <div class="na_fxd_2"><li><a href="#skills">02_Skills</a></li></div>
+    <div class="na_fxd_3"><li><a href="#works">03_Works</a></li></div>
+    <div class="na_fxd_4"><li><a href="#hobbies">04_Hobbies</a></li></div>
+    <div class="na_fxd_5"><li><a href="#contact">05_Contact</a></li></div>
+  </div>
+
+  <main>
+  <section class="first_parents">
+    <div class="first_view">
+      <header>
+        <div id="menu">
+          <p>MENU</p>
+          <div class="lgs_switch">
+            <a href="#">JPN</a>
+            <span>/</span>
+            <a href="#">ENG</a>
+          </div>
+      
+          <nav class="navi">
+            <li><a href="#profile">#Profile</a></li>
+            <li><a href="#skills">#Skills</a></li>
+            <li><a href="#works">#Works</a></li>
+            <li><a href="#hobbies">#Hobbies</a></li>
+            <li><a href="#contact">#Contact</a></li>
+          </nav>
+      
+          <div class="first_social">
+            <a href="https://www.facebook.com/yoshihiro.6794"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ashitakaandsan1/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/eng_speakerism"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </header>
+    </div>
+
+        <div>
+          <p class="first_bf1"> Your Future Hasn't Been Written Yet</p>
+          <p class="first_bf2">No One's Has</p>
+          <h1 class="first_bf3">YOUR FUTURE IS WHATEVER YOU MAKE IT.</h1>
+          <p class="first_bf4">〜From "Back To The Future Ⅲ"〜</p>
+          <p class="first_svg"><img src="img/asset21.svg" alt=""></p>
+        </div>
+     
+  </section>
+
+  <section class="profile et-slide" id="profile">
+    <div class="profile_parent">
+      <div class="profile_name"><h2>Yoshi's Profile</h2></div>
+      <div class="profile_img"><img src="img/yoshi-GA.JPG" alt=""></div>
+    </div>
+
+    <div class="profile_parent profile_info">
+      <div class="info_name"><p>Name:</p></div>
+      <div class="info_ans"><h2>田中 慶大 (Yoshihiro Tanaka)</h2></div>
+    </div>
+
+    <div class="profile_parent">
+      <div class="info_name"><p>Hometown:</p></div>
+      <div class="info_ans"><h2>茨城県 取手市</h2></div>
+    </div>
+
+    <div class="profile_parent">
+      <div class="info_name"><p>Languages:</p></div>
+      <div class="info_ans"><h2>日本語, 英語, スペイン語</h2></div>
+    </div>
+
+    <div class="profile_parent">
+      <div class="info_name"><p>Programming:</p></div>
+      <div class="info_ans"><h2>HTML, CSS, JavaScript, <br> jQuery, WordPress</h2></div>
+    </div>
+
+    <div class="profile_parent">
+      <div class="info_name"><p>Favourite mottos:</p></div>
+      <div class="info_ans"><h2>"一期一会", <br> "Your future is 
+        whatever you make it"</h2></div>
+    </div>
+
+    <div class="profile_parent">
+      <div class="info_name"><p>Belongings:</p></div>
+      <div class="info_ans"><h2>フリーランスWEB制作チーム "Haruship" メンバー<br>
+      外国語学習コミュニティー "O'ZEC" リーダー</h2>
+      <a class="haruship" href=""><p>→Harushipポトフォリオはこちらをクリック</p></a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="skill et-slide" id="skills">
+    <div class="skill_parent">
+
+      <div class="skill_coding" data-aos="zoom-in-up" data-aos-once="true"
+      data-aos-duration="3000">
+        <h2>CODING</h2>
+        <img src="img/zeroplus-profile02.JPG" alt="">
+        <h3>Languages</h3>
+        <h4>HTML, CSS, JavaScript,<br>jQuery, WordPress</h4>
+        <p><span>レスポンシブ対応、SEO対策</span>などを含め、柔軟に対応致します。
+          また、WEB制作チームHarushipでも対応可能です。ただコーディングするのではなく、
+          保守運用やSEO対策などを考慮して、キレイなコーディングを心がけております。
+        </p>
+      </div>
+
+      <div class="skill_design" data-aos="zoom-in-up" data-aos-once="true"
+      data-aos-duration="3000" data-aos-delay="1000">
+        <h2>DESIGN</h2>
+        <img src="img/zeroplus-profile02.JPG" alt="">
+        <h3>Tools</h3>
+        <h4>illustrator, Photoshop, XD,<br>Atom, VS-Code</h4>
+        <p>上記のツールを用いて、制作段階でヒアリングをし、デザインを決めていきます。
+           <span>UI/UX</span>を意識し、使いやすく、お客様の印象に残るデザインをお作りします。
+           お客様のご要望に合わせて、デザインのご提案をさせていただきます。
+        </p>
+      </div>
+
+      <div class="skill_english" data-aos="zoom-in-up" data-aos-once="true"
+      data-aos-duration="3000" data-aos-delay="2000">
+        <h2>ENGLISH</h2>
+        <img src="img/Hosts-International.JPG" alt="">
+        <h3>Languages</h3>
+        <h4>English: Business to Native<br>
+          Spanish: Beginner
+        </h4>
+        <p>ロンドン在住、勤務経験があり、英語による様々な対応も必要に応じて可能です。</p>
+        <p class="skill_eng_spt">具体的に以下が対応可能になります。 <br>・英語を用いたWebsiteの作成<br>・英語によるライティング業務
+          <br>・海外企業との英語でのメール、電話対応 <br>・日英での翻訳、通訳</div>
+
+    </div>
+  </section>
+
+  <section class="works et-slide" id="works">
+
+    <div class="works_parent" data-aos="fade-up" data-aos-once="true"
+    data-aos-duration="1000">
+      <div class="works_child1">
+        <div class="wks_c1_1"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c1_2"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c1_3" ><img src="img/zeroplus-profile02.JPG" alt=""></div>
+      </div>
+
+      <div class="works_child1" data-aos="fade-up" data-aos-once="true"
+      data-aos-duration="1000" data-aos-delay="1000">
+        <div class="wks_c2_1"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c2_2"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c2_3"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+      </div>
+
+      <div class="works_child1" data-aos="fade-up" data-aos-once="true"
+      data-aos-duration="1000" data-aos-delay="2000">
+        <div class="wks_c3_1"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c3_2"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+        <div class="wks_c3_3"><img src="img/zeroplus-profile02.JPG" alt=""></div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hobbies et-slide" id="hobbies">
+    <div class="hobbies_parent">
+      <div class="hobbies_child1">
+        <div class="h_c1_1" data-aos="flip-left"
+        data-aos-offset="300"
+        data-aos-duration="3000" data-aos-once="true">
+        <img src="img/zeroplus-hobbies01.jpeg" alt=""></div>
+        <div class="h_c1_2" data-aos="fade-up" data-aos-delay="1000" 
+        data-aos-duration="3000" data-aos-once="true">
+          <img src="img/hobbies_football.jpg" alt=""></div>
+      </div>
+
+      <div class="hobbies_child2">
+        <div class="hobbies_border" data-aos="zoom-in" data-aos-delay="2000" 
+        data-aos-duration="3000" data-aos-once="true">
+        <h2>FOOTBALL</h2>
+        <ul class="h_c2_ul">
+          <li>Clubs:　<span>鹿島アントラーズ, チェルシーFC</span></li>
+          <li>Favourite players:　<span>ディディエ・ドログバ</span></li>
+          <li class="h_c2_li3">Position:　<span>ボランチ, DMF</span></li>
+        </ul>
+        <p>6歳の頃からサッカーを始め、今でも定期的にフレンドリーマッチをしています。
+          今まで様々なスポーツをしてきました。足をメインに使い、
+          ピッチにボールが出なければ自由にプレーできる独創性、芸術性を必要とするサッカー
+          が1番プレーしてて楽しく、生活になくてはならないものになっています。
+          また、茨城出身なので、アントラーズを応援しています。
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hobbies_parent2">
+      <div class="hobbies_child3">
+        <div class="hobbies_border2" data-aos="fade-right"
+        data-aos-delay="1000"
+        data-aos-duration="3000" data-aos-once="true">
+        <h2>Guitar/Piano</h2>
+        <ul>
+          <li>Favourite composer: <span>久石譲</span></li>
+          <li class="hobbies_c3_li">Favourite song:<span>アシタカとサン</span></li>
+          <li>Years of Experinces: <span>5 years</span></li>
+        </ul>
+        <p>小さい頃から大のジブリファンでジブリの映画音楽を担当する
+          久石譲さんの曲を弾きたくギターを習い始めました。最近はピアノも練習して
+          います。自ら音を作り出す楽しさ、それゆえの正解がないという難しさもあります。
+          だからそこ、聞いてもらう人に楽しんでもらえるように、表現を大事に、
+          どう言った気持ちで作曲者がその曲を作曲したのかを読み取って、
+          演奏しています。
+        </p>
+      </div>
+      </div>
+      
+
+      <div class="hobbies_child4">
+        <div class="h_c4_1" data-aos="fade-down"
+        data-aos-duration="3000" data-aos-once="true">
+        <img src="img/yoshi_guitar.JPG" alt=""></div>
+        <div class="h_c4_2" data-aos="fade-down" data-aos-delay="1000" 
+        data-aos-duration="3000" data-aos-once="true">
+        <img src="img/zeroplus-hobbies04.JPG" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="journey">
+    <h2 class="j_top">#YOSHISSTORIES</h2>
+    <div class="journey_parent">
+      <div class="j_child1"><a href="https://www.instagram.com/yoshihiro_ars/">
+        <i class="fab fa-instagram"></i></a></div>
+      <div class="j_child2">Share photos on Instagram, tagging @ashitakaandsan1</div>
+    </div>
+    <div class="journey_parent">
+      <div id="slideshow">
+      <img src="img/zeroplus-profile01.jpeg">
+      <img src="img/zeroplus-profile02.JPG">
+      <img src="img/zeroplus-profile03.jpg">
+      <img src="img/yoshi_paris.JPG">
+      <img src="img/zeroplus-firstview.JPG" alt="">
+    </div>
+    <div class="j_child3">
+      <div class="j_child3_1 box19"><h2>"LIFE IS A JOURNEY"</h2>
+        <p>左の写真はヨーロッパ旅行をした先々で撮ったものです。
+          1枚目: ローマ(顔あり), 2枚目: ロンドン, 3枚目: ハルシュタット 4枚目: パリ 5枚目: ストックホルム です。
+          旅をすると、必ずしも楽しいことばかりではないです。
+          道に迷い、電車に乗り遅れ、空港泊をさせられ、
+          食中毒でお腹を壊す。英語は通じないこともあるし、スリにも逢うかもしれない。
+          目的地に着くまでに必ずと言って良いほど、辛い目に逢う。
+          それでもなぜかまた旅に出たいと思うのは苦難や逆境を乗り越え目的地に着いたときの
+          達成感、喜びが忘れられないから。
+          人生においても同じ。迷うことがあっても、横道にそれても、
+          前をむいて、とりあえずは一方向に突き進んでいきたいと思います。
+          そう、まさに"旅"のように。
+        </p>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  </section>
+
+
+
+  <footer id="contact">
+    <h2 class="footer_h2">eng.speakerism@gmail.com</h2>
+    <div class="footer_parent">
+      <div class="footer_child1">
+        <p>このポトフォリオサイトやWeb制作のご依頼に関して
+          コメント、<br>ご相談やご依頼がありましたらお気軽に
+          上記にお問い合わせください。
+        </p>
+      </div>
+      <div class="footer_child2">
+        <nav>
+          <li><a href="#profile">01_Profile <span class="f_c2_s1">#Yoshi</span></a></li>
+          <li><a href="#skills">02_Skills  <span class="f_c2_s2">#Languages</span></a></li>
+          <li><a href="#works">03_Works  <span class="f_c2_s3">#Arts</span></a></li>
+          <li><a href="#hobbies">04_Hobbies  <span class="f_c2_s4">#PfGrAndFootball</span></a></li>
+          <li><a href="#contact">05_Contact  <span class="f_c2_s5">#NightView</span></a></li>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer_parent2">
+      <a href="https://www.facebook.com/yoshihiro.6794"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ashitakaandsan1/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/eng_speakerism"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+</main>
+
+
+  
+<script src='bower_components/dyn-css/dyncss.js'
+type='text/javascript' /></script>
+<script src="js/audio.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
+</body>
+</html>
